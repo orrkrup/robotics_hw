@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node name='teleop' pkg='turtlesim' type='turtle_teleop_key' />
+  <group ns="turtlesim1">
+    <node name='sim' pkg='turtlesim' type='turtlesim_node'/>
+    <node name='relay' pkg='topic_tools' type='relay' args='/turtle1/cmd_vel /turtlesim1/turtle1/cmd_vel'/>
+  </group>
+
+  <group ns="turtlesim2">
+    <node name='sim' pkg='turtlesim' type='turtlesim_node'/>
+    <node name='relay' pkg='topic_tools' type='relay' args='/turtle1/cmd_vel /turtlesim2/turtle1/cmd_vel'/>
+  </group>
+</launch>

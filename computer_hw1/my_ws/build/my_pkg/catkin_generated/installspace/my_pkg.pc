@@ -1,0 +1,8 @@
+prefix=/home/ee-student/my_ws/install
+
+Name: my_pkg
+Description: Description of my_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ee-student/my_ws/install/lib 
+Requires: 

@@ -1,0 +1,6 @@
+.DS_Store
+./*/.venv/
+Ubuntu18.vdi
+./*/.ipynb_checkpoints/
+.ipynb_checkpoints/
+./*/.idea/

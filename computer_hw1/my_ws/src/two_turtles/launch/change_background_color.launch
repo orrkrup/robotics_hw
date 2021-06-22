@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+  <group ns="turtlesim1">
+    <param name="background_r" value="255.0" />
+    <node name="call_clear" pkg="rosservice" type="rosservice" args="call clear" />
+  </group>
+
+  <group ns="turtlesim2">
+    <param name="background_b" value="0.0" />
+    <node name="call_clear" pkg="rosservice" type="rosservice" args="call clear" />
+  </group>
+
+</launch>

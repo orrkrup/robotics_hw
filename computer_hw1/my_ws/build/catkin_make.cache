@@ -1,0 +1,2 @@
+my_pkg
+-DCATKIN_DEVEL_PREFIX=/home/ee-student/my_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ee-student/my_ws/install -G Unix Makefiles
